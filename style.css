@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    background-color: #060D1E;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 8.2vw;
+}
+
+.white{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.text{
+    font-size: 4vw;
+}
+
+.text-2{
+    font-size: 2vw;
+}
+
+.fun-fact{
+    width: 90%;
+}
+
+.congrats{
+    color: white;
+    margin-bottom: 0;
+}
+
+span{
+    font-size: 6.2vw;
+}
+
+p{
+    margin: 0;
+}
+
+.congrats-2{
+    display: flex;
+    justify-content: center;
+}
+
+.c1{
+    color: #245BBC;
+}
+
+.c2{
+    color: #F0C02C;
+}
+
+.credits{
+    color: white;
+    font-size: 2vw;
+}
+
+button{
+    background-color: #245BBC;
+    border-radius: 2vw;
+    border: none;
+    padding: 2vw 3vw;
+    color: #F0C02C;
+    font-weight: 600;
+    font-size: 2vw;
+}
