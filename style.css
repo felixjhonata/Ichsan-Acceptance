@@ -8,8 +8,19 @@ body{
     align-items: center;
 }
 
+@keyframes img {
+    from {scale: 0.3;}
+    to {scale: 1}
+}
+
+#card{
+    animation-name: img;
+    animation-duration: 2s;
+    scale: 1;
+}
+
 img{
-    width: 100%
+    width: 100%;
 }
 
 h1{
@@ -79,4 +90,23 @@ button{
     font-weight: 600;
     font-size: 2vw;
     cursor: pointer;
+}
+
+video{
+    scale: 1.29;
+    margin: 8vw 0vw;
+    animation-delay: 20s;
+    animation-name: animate;
+    animation-duration: 4s;
+}
+
+
+.scaleback{
+    scale: 1;
+    margin: 0;
+}
+
+@keyframes animate {
+    from {scale: 1.29; margin: 8vw 0vw;} 
+    to {scale: 1; margin: 0}
 }

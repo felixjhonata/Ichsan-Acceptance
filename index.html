@@ -10,9 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Ichsan.png">
 </head>
 <body>
-    <img src="./Card.png" alt="Congratulation Card">
+    <div id="media">
+        <video autoplay id="myvid" onended="myHandler()" src="./Ichsan's Acceptance.mov" width="100%"></video>
+    </div>
     <div class="white">
         <br>
         <h1><b><u>FUN FACT</u></b></h1>
@@ -34,7 +37,23 @@
     <button onclick="window.open('./Card.png', '_blank')">Download Card</button>
     
     <br>
-    <div class="credits"><b>Credits:</b> Alton Liu, Felix Jhonata, and Jonathan Theofilus Emmanuel</div>
+    <div class="credits"><b>Best Regards from:</b> Alton Liu, Felix Jhonata, and Jonathan Theofilus Emmanuel</div>
     <br>
+
+
+
+    <script type='text/javascript'>
+        function myHandler(e) {
+            document.getElementById('media').innerHTML = `<img id="card" src="./Card.png" alt="Ichsan's Congratulations Card">`
+        }
+
+        function myFunction() {
+            document.getElementById('myvid').className = "scaleback"
+            console.log("Hello World!")
+        }
+
+        setTimeout(myFunction, 20500);
+
+    </script>
 </body>
 </html>
