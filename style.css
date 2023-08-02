@@ -19,6 +19,18 @@ body{
     scale: 1;
 }
 
+#media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 img{
     width: 100%;
 }
