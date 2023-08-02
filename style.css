@@ -27,8 +27,9 @@ body{
 }
 
 iframe{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 50px 0px;
+    width: max-content;
+    height: max-content;
 }
 
 img{
